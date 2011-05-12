@@ -1,0 +1,19 @@
+What up foo?
+
+This is a simple ExpressionEngine plugin to convert a string to a formatted date using the native PHP date and strtotime methods
+
+Installation:
+
+To install this massive project in ExpressionEngine, create a folder name "date_format" in your system/expressionengine/third_party/ directory named date_format and put the pi.date_format.php file in the folder. That's all.
+
+Usage:
+
+Say you have a channel field named {the_date} that is a string representing a date, simply do the following to format it as a proper date:
+
+{exp:date_format date="{the_date}" format="M d, Y"}
+
+Author: Chad Hutchins, http://twitter.com/chadhutchins
+License: The "i don't care what you do with this" license
+Support: There's no support for this code. It's provided as is. Fork it if you need something. I'm from Texas ya'll.
+Website: https://github.com/chadhutchins/date_format
+
